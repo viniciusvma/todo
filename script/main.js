@@ -51,7 +51,7 @@ function salvarNoLocalStorage() {
     localStorage.setItem('lista', JSON.stringify(items))
 }
 
-recarregarTela()
 
+document.addEventListener('DOMContentLoaded', recarregarTela);
 adicionar.addEventListener('click', leituraValores)
 
