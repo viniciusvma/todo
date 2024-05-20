@@ -102,3 +102,10 @@ button:hover {
     color: #555;
     background-color: #f0f0f0;
 }
+
+@media only screen and (max-width: 768px) {
+    img {
+        width: 30px;
+        opacity: 1;
+    }
+}
